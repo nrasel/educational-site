@@ -1,0 +1,66 @@
+[
+    {
+        "code": "01",
+        "title": "Computer Science and Engineering",
+        "chairman": "Abdur Rohim",
+        "instructor": "15",
+        "price": 1000,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "02",
+        "title": "Electrical and Electronic Engineering",
+        "chairman": "Dilip Kumar Sarkar",
+        "instructor": "15",
+        "price": 1200,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "03",
+        "title": "Electrical Electronic and Communication Engineering",
+        "chairman": "Safiul Islam",
+        "instructor": "10",
+        "price": 1300,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "04",
+        "title": "Information and Communication Engineering",
+        "chairman": "MD. Omar Faruk",
+        "instructor": "12",
+        "price": 1100,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "05",
+        "title": "Civil Engineering",
+        "chairman": "Rashedul Haque",
+        "instructor": "10",
+        "price": 1500,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "06",
+        "title": "Architecture",
+        "chairman": "Jannatul Ferdousi",
+        "instructor": "6",
+        "price": 9000,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "07",
+        "title": "Urban and Regional Planing",
+        "chairman": "Sohel Rana",
+        "instructor": "6",
+        "price": 8000,
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "08",
+        "title": "Physics",
+        "chairman": "Khairul Islam",
+        "instructor": "13",
+        "price": 5000,
+        "img": "../public/images/URP.jpg"
+    }
+]
