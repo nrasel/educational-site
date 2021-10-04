@@ -13,7 +13,7 @@ const About = () => {
                                 <tr>
 
                                     <td>Founded</td>
-                                    <td>2020</td>
+                                    <td>2010</td>
                                 </tr>
                             </thead>
                             <tbody>

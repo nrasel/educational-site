@@ -16,7 +16,8 @@ const Services = () => {
                 {
                     services.map((service => <Service service={service}/>
 
-                    ))}
+                    ))
+                }
             </Row>
         </Container>
 
