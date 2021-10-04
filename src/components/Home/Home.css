@@ -1,0 +1,23 @@
+
+.position-title{
+    position: relative;
+    /* overflow: hidden; */
+}
+.university-title{
+    position: absolute;
+    background: rgba(31, 53, 72, 0.6);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    opacity: 1;
+    color: white;
+}
+.title-fontSize{
+    font-size: 70px;
+}

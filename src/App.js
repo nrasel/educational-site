@@ -1,24 +1,42 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import Admission from './components/Admission/Admission';
+import Header from './components/Header/Header';
+import Services from './components/Services/Services';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Switch>
-          <Route exact path="/about">
-
+          <Route exact path="/home">
+            <Home />
           </Route>
-          <Route exact path="/users">
-
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/admission">
+            <Admission />
+          </Route>
+          <Route exact path="/services">
+            <Services />
           </Route>
           <Route exact path="/">
 
           </Route>
+         
           <Route exact path="*">
-
+            <NotFound />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

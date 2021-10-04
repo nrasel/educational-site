@@ -4,7 +4,8 @@
         "title": "Computer Science and Engineering",
         "chairman": "Abdur Rohim",
         "instructor": "15",
-        "price": 1000,
+        "tution_fee": 1000,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
@@ -12,7 +13,8 @@
         "title": "Electrical and Electronic Engineering",
         "chairman": "Dilip Kumar Sarkar",
         "instructor": "15",
-        "price": 1200,
+        "tution_fee": 1200,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
@@ -20,7 +22,8 @@
         "title": "Electrical Electronic and Communication Engineering",
         "chairman": "Safiul Islam",
         "instructor": "10",
-        "price": 1300,
+        "tution_fee": 1300,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
@@ -28,7 +31,8 @@
         "title": "Information and Communication Engineering",
         "chairman": "MD. Omar Faruk",
         "instructor": "12",
-        "price": 1100,
+        "tution_fee": 1100,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
@@ -36,7 +40,8 @@
         "title": "Civil Engineering",
         "chairman": "Rashedul Haque",
         "instructor": "10",
-        "price": 1500,
+        "tution_fee": 1500,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
@@ -44,7 +49,8 @@
         "title": "Architecture",
         "chairman": "Jannatul Ferdousi",
         "instructor": "6",
-        "price": 9000,
+        "tution_fee": 9000,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
@@ -52,15 +58,53 @@
         "title": "Urban and Regional Planing",
         "chairman": "Sohel Rana",
         "instructor": "6",
-        "price": 8000,
+        "tution_fee": 8000,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     },
     {
         "code": "08",
-        "title": "Physics",
+        "title": "Department of Leather Engineering",
         "chairman": "Khairul Islam",
         "instructor": "13",
-        "price": 5000,
+        "tution_fee": 19000,
+        "duration":"4 Years",
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "09",
+        "title": "Department of Textile Engineering",
+        "chairman": "Amirul Islam",
+        "instructor": "17",
+        "tution_fee": 20000,
+        "duration":"4 Years",
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "10",
+        "title": "Mechanical Engineering",
+        "chairman": "Hymayun Kabir",
+        "instructor": "18",
+        "tution_fee": 25000,
+        "duration":"4 Years",
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "11",
+        "title": "Materials Science and Engineering",
+        "chairman": "Materials Science and Engineering",
+        "instructor": "20",
+        "tution_fee": 14000,
+        "duration":"4 Years",
+        "img": "../public/images/URP.jpg"
+    },
+    {
+        "code": "10",
+        "title": "Mechanical Engineering",
+        "chairman": "Shamim Reza",
+        "instructor": "18",
+        "tution_fee": 25000,
+        "duration":"4 Years",
         "img": "../public/images/URP.jpg"
     }
 ]

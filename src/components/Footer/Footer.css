@@ -1,0 +1,26 @@
+.footer-background{
+    background-color: #efefef;
+}
+.logo-img-footer{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.footer-name{
+    font-size: 40px;
+    color: #bf1430;
+}
+.footerr-bottom{
+    border-top: 1px solid #bf1430;
+}
+.text-color h4,p{
+    color: #bf1430;
+}
+.footer-link span{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.border-logo{
+    border-right: 2px solid #bf1430;
+    height: 10px;
+}
