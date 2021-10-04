@@ -1,0 +1,38 @@
+[
+    {
+        "code": "01",
+        "title": "Computer Science and Engineering",
+        "chairman": "Abdur Rohim",
+        "instructor": "15",
+        "tution_fee": 1000,
+        "duration": "4 Years",
+        "img": "https://www.pust.ac.bd/includes/images/dept_img/CSE.jpg"
+    },
+    {
+        "code": "02",
+        "title": "Electrical and Electronic Engineering",
+        "chairman": "Dilip Kumar Sarkar",
+        "instructor": "15",
+        "tution_fee": 1200,
+        "duration": "4 Years",
+        "img": "https://www.pust.ac.bd/includes/images/dept_img/EEE.jpg"
+    },
+    {
+        "code": "03",
+        "title": "Electrical Electronic and Communication Engineering",
+        "chairman": "Safiul Islam",
+        "instructor": "10",
+        "tution_fee": 1300,
+        "duration": "4 Years",
+        "img": "https://www.pust.ac.bd/includes/images/dept_img/ETE.jpg"
+    },
+    {
+        "code": "04",
+        "title": "Information and Communication Engineering",
+        "chairman": "MD. Omar Faruk",
+        "instructor": "12",
+        "tution_fee": 1100,
+        "duration": "4 Years",
+        "img": "https://www.pust.ac.bd/includes/images/dept_img/ICE.jpg"
+    }
+]

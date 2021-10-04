@@ -6,9 +6,9 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import Admission from './components/Admission/Admission';
 import Header from './components/Header/Header';
-import Services from './components/Services/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NotFound from './components/NotFound/NotFound';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -29,10 +29,9 @@ function App() {
             <Services />
           </Route>
           <Route exact path="/">
-
+            <Home />
           </Route>
-         
-          <Route exact path="*">
+          <Route path="*">
             <NotFound />
           </Route>
         </Switch>
