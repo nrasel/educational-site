@@ -8,6 +8,7 @@ const Admission = () => {
     return (
 
         <div className="container py-5 my-5">
+            <h3>UNDERGRADUATE ADMISSION NOTICE</h3>
             <Table striped bordered hover>
                 <thead >
                     <tr>
