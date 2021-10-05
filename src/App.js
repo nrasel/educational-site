@@ -13,6 +13,7 @@ import Services from './components/Services/Services';
 function App() {
   return (
     <div className="App">
+      {/* router setup */}
       <Router>
         <Header />
         <Switch>

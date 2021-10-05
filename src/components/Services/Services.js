@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
+import './Services.css'
 
 const Services = () => {
 
@@ -11,15 +12,21 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <Container>
-            <Row xs={1} md={4} className="g-3 my-4">
-                {
-                    services.map((service => <Service service={service}/>
+        <div className="background-colure">
 
-                    ))
-                }
-            </Row>
-        </Container>
+            <Container >
+                {/* services */}
+                <h2 className="pt-5" style={{ color: '#7777' }}>Our Available Services</h2>
+                <Row xs={1} md={4} className="g-3 py-4">
+
+                    {
+                        services.map((service => <Service service={service} />
+
+                        ))
+                    }
+                </Row>
+            </Container>
+        </div>
 
 
     );

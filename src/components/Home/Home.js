@@ -5,12 +5,14 @@ import background from '../utilities/images/campus-building.jpg'
 import './Home.css'
 
 const Home = (props) => {
+    // state
     const [services, setServices] = useState([])
     useEffect(() => {
         fetch('./homeService.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
+    // header background image
     const headerImage = {
         backgroundImage: `url(${background})`,
         backgroundRepeat: 'no-repeat',
@@ -21,6 +23,7 @@ const Home = (props) => {
     }
     return (
         <div>
+            {/* header section */}
             <div className="position-title" style={headerImage}>
                 <div className="university-title">
                     <h1 className="title-fontSize">Academy University</h1>
@@ -28,15 +31,19 @@ const Home = (props) => {
                 </div>
             </div>
             {
-                <Container>
-                    <Row xs={1} md={4} className="g-3 my-4">
-                        {
-                            services.map((service => <Service service={service} />
+                // service section
+                <div className="background-colure">
+                    <Container>
 
-                            ))
-                        }
-                    </Row>
-                </Container>
+                        <Row xs={1} md={4} className="g-3 py-5">
+                            {
+                                services.map((service => <Service service={service} />
+
+                                ))
+                            }
+                        </Row>
+                    </Container>
+                </div>
             }
 
         </div>

@@ -1,7 +1,6 @@
-
+/* header */
 .position-title{
     position: relative;
-    /* overflow: hidden; */
 }
 .university-title{
     position: absolute;
@@ -20,4 +19,8 @@
 }
 .title-fontSize{
     font-size: 70px;
+}
+/* home page service  */
+.background-colure{
+    background-color: #f7f8f9;
 }
